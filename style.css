@@ -3,13 +3,12 @@ body {
 }
 
 #bg-color {
-    position: absolute;
-    height: 119px;
-    width: 25%;
-    margin-top: -351px;
+    height: 331px;
+    width: 82%;
+    margin-left: -15%;
+    margin-top: -710px;
     opacity: 0.2;
     border-radius: 176px;
-    border: 1px solid lightgreen;
 }
 
 .display-block {
@@ -23,13 +22,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
 
 .goku {
-    max-width: 40%;
+    max-width: 60%;
 }
 
 .genkidama {
-        margin-top: 40px;
+        margin-top: 80px;
         margin-left: 110px;
+        max-width: 30%;
 }
