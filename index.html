@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./style.css" />
+    <title>RGB Color grade</title>
+</head>
+<body>   
+    <div class="align">
+        <div class="colors">
+            <h2>(R) Red:</h2>
+            <h2>(G) Green:</h2>
+            <h2>(B) Blue:</h2>
+        </div>
+
+    <div>
+        <input 
+        id="range-red"
+        class="display-block"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+        />
+        <input 
+        id="range-green"
+        class="display-block"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+        />
+        <input 
+        id="range-blue"
+        class="display-block"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+        />
+    </div>
+    <div>
+        <input 
+        id="input-red"
+        class="display-block input-range"
+        disabled
+        value="0"
+        type="text"
+        />
+        <input 
+        id="input-green"
+        class="display-block input-range"
+        disabled
+        value="0"
+        type="text"
+        />
+        <input 
+        id="input-blue"
+        class="display-block input-range"
+        disabled
+        value="0"
+        type="text"
+        />
+    </div>
+</div>
+
+<div class="genkidama">
+    <img src="./goku.png" class=goku />
+    <div id="bg-color"></div> 
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>

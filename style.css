@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(202,202,211);
+}
+
+#bg-color {
+    position: absolute;
+    height: 119px;
+    width: 25%;
+    margin-top: -351px;
+    opacity: 0.2;
+    border-radius: 176px;
+    border: 1px solid lightgreen;
+}
+
+.display-block {
+    display: block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.align {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goku {
+    max-width: 40%;
+}
+
+.genkidama {
+        margin-top: 40px;
+        margin-left: 110px;
+}
